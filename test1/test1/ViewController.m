@@ -25,7 +25,10 @@
     //here is master
     //
     //change something
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99bb75140dd739ccdf0f3ff4a572c6e4c764c7e9
     if (index == iMAX-1) {
         return;
     }
