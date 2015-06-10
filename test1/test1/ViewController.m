@@ -22,7 +22,7 @@
 
 
 - (IBAction)goNext:(id)sender {
-    //
+    //here is master
     if (index == iMAX-1) {
         return;
     }
