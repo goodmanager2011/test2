@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestVC1">
+            <connections>
+                <outlet property="vContainer" destination="6ad-pZ-SYN" id="jD5-Fi-wNE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ad-pZ-SYN">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqg-e2-0Ku">
+                            <rect key="frame" x="182.5" y="323.5" width="10" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ene-Cb-V26">
+                            <rect key="frame" x="164" y="379" width="46" height="30"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="go1_1:" destination="-1" eventType="touchUpInside" id="0UH-tR-Dfa"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="ene-Cb-V26" firstAttribute="centerX" secondItem="6ad-pZ-SYN" secondAttribute="centerX" id="9nf-zO-tjk"/>
+                        <constraint firstItem="eqg-e2-0Ku" firstAttribute="centerY" secondItem="6ad-pZ-SYN" secondAttribute="centerY" id="9x5-te-alm"/>
+                        <constraint firstItem="ene-Cb-V26" firstAttribute="centerY" secondItem="6ad-pZ-SYN" secondAttribute="centerY" id="Hft-UD-ZvF"/>
+                        <constraint firstItem="eqg-e2-0Ku" firstAttribute="centerX" secondItem="6ad-pZ-SYN" secondAttribute="centerX" id="VbS-0V-2jc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6ad-pZ-SYN" secondAttribute="trailing" id="AbE-rB-G0p"/>
+                <constraint firstAttribute="bottom" secondItem="6ad-pZ-SYN" secondAttribute="bottom" id="I0o-dH-Lml"/>
+                <constraint firstItem="6ad-pZ-SYN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eR8-Pg-ulH"/>
+                <constraint firstItem="6ad-pZ-SYN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="y0m-Zx-5hF"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

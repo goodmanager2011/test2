@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseVC">
+            <connections>
+                <outlet property="constraintBottom" destination="KhI-41-5z2" id="qr8-0C-5bT"/>
+                <outlet property="vContainer" destination="CYk-YJ-rUU" id="Uav-ov-JuT"/>
+                <outlet property="view" destination="Myj-d6-l9J" id="wpJ-0d-wen"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Myj-d6-l9J">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CYk-YJ-rUU" userLabel="ViewContainer">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                    <color key="backgroundColor" red="0.3949437475" green="0.77332380540000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view tag="11" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aEA-J9-ILO" userLabel="ViewBottom">
+                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <color key="backgroundColor" red="0.36707575009999999" green="1" blue="0.68681348519999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="KhI-41-5z2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="CYk-YJ-rUU" firstAttribute="top" secondItem="Myj-d6-l9J" secondAttribute="top" placeholder="YES" id="CDS-tB-Yrh"/>
+                <constraint firstItem="aEA-J9-ILO" firstAttribute="leading" secondItem="Myj-d6-l9J" secondAttribute="leading" placeholder="YES" id="OUt-58-Yev"/>
+                <constraint firstItem="CYk-YJ-rUU" firstAttribute="leading" secondItem="Myj-d6-l9J" secondAttribute="leading" placeholder="YES" id="OsU-YH-uNU"/>
+                <constraint firstAttribute="trailing" secondItem="aEA-J9-ILO" secondAttribute="trailing" id="P89-yc-84V"/>
+                <constraint firstAttribute="trailing" secondItem="CYk-YJ-rUU" secondAttribute="trailing" placeholder="YES" id="WLX-6c-BQo"/>
+                <constraint firstItem="aEA-J9-ILO" firstAttribute="top" secondItem="CYk-YJ-rUU" secondAttribute="bottom" id="YNe-YX-D7f"/>
+                <constraint firstAttribute="bottom" secondItem="aEA-J9-ILO" secondAttribute="bottom" id="wgF-Oo-ijh"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="298" y="364"/>
+        </view>
+    </objects>
+</document>
